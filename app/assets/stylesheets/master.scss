@@ -1,1 +1,15 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Passion+One&display=swap');
+
+
+.navbar {
+  font-family: 'Passion One', cursive;
+  font-weight: 300;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  background: image_url('dust_scratches.png')
+}
+
+.navbar-brand {
+  font-weight: 300;
+  font-size: 45px;
+}
