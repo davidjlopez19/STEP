@@ -26,6 +26,15 @@
 .navbar-brand {
   font-weight: 300;
   font-size: 45px;
+}
+
+.navbar-brand:hover {
+  text-color: #ff5b0f;
+  text-decoration: none;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-toggler:hover {
   text-color: #ff5b0f;
 }
 
@@ -80,4 +89,34 @@ h1, h2, h3, h4, h5, h6, .navbar {
 body {
   background: image_url('pw_maze_white');
   font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#flex-content-container {
+  flex: 1;
+}
+
+#footer {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  background-color: #000000;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica;
+  padding: 10px 0px;
+  margin-top: 30px;
+}
+
+#footer a {
+  color: white;
+  font-weight: 100;
 }
