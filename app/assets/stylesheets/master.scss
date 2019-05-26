@@ -26,16 +26,19 @@
 .navbar-brand {
   font-weight: 300;
   font-size: 45px;
+  text-color: #ff5b0f;
 }
 
-.navbar-brand:hover {
-  text-color: #ff5b0f;
-  text-decoration: none;
+a {
+  color: #000000;
 }
 
-.navbar-light .navbar-brand,
-.navbar-light .navbar-toggler:hover {
-  text-color: #ff5b0f;
+a:focus, a:hover {
+  color: #ff5b0f;
+}
+
+.nav > li > a:hover{
+    background-color:#ff5b0f;
 }
 
 .hero {
@@ -119,4 +122,10 @@ body {
 #footer a {
   color: white;
   font-weight: 100;
+}
+
+b {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 300px;
 }
