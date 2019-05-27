@@ -2,5 +2,24 @@
   <br />
   <div class="booyah-box">
     <h1 class="text-center"><%= @course.title %></h1>
+    <br />
+    <div class="row wrapper">
+      <div class="text-center" id="button1">
+        <%= link_to 'Preview As Student...', course_path(@course), class: 'btn btn-warning float-right' %>
+      </div>
+      <br class="clr" />
+      <div class="text-center" id="button2">
+        <%= link_to 'Add a new section...', new_instructor_course_section_path(@course), class: 'btn btn-primary left-margin' %>
+      </div>
+    </div>
+
+    <ul>
+      <% @course.sections.each do |section| %>
+        <li>
+          <%= section.title %>
+        </li>
+      <% end %>
+    </ul>
+    
   </div>
 </div>
