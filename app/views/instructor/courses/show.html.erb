@@ -2,8 +2,11 @@
   <br />
   <div class="booyah-box">
     <h1 class="text-center"><%= current_course.title %></h1>
+    <% if current_course.image.url.present? %>
+      <%= image_tag current_course.image.url, class: 'img-fluid' %>
+    <% end %>
     <br />
-    <div class="row wrapper">
+    <div class="row col-6 offset 6">
       <div class="text-center preview" id="button1">
         <%= link_to 'Preview As Student...', course_path(current_course), class: 'btn btn-warning float-right' %>
       </div>
