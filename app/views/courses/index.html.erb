@@ -7,10 +7,10 @@
     <% @courses.each do |course| %>
       <h4 class="text-center">
         <%= link_to course.title, course_path(course) %> 
+        <% if course.image.url %>
+          <%= image_tag course.image.url, class: 'img-fluid' %>
+        <% end %>
       </h4>
-      <% if course.image.url.present? %>
-        <%= image_tag course.image.url, class: 'img-fluid' %>
-      <% end %>
       <br />
       <div class="row">
         <div class="col-sm-8 col-12">
