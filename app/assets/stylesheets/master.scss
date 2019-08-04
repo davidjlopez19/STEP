@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 @import url('https://fonts.googleapis.com/css?family=Passion+One&display=swap');
 
 .booyah-box {
@@ -182,3 +183,47 @@ body {
   font-weight: 100;
   font-size: 25px;
 }
+
+ul {
+  list-style-type: none;
+  // margin: 5px;
+}
+
+.section-li {
+  background: white;
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.4)
+}
+
+ul .header {
+  font-size: 25px;
+}
+
+ul .header .fa {
+  font-size: 20px;
+}
+
+.lessons li {
+  background: black;
+  color: white;
+  margin: 15px;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  padding: 8px;
+  font-size: 18px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.4)
+}
+
+.lesson li b {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.lesson li p {
+  margin: 0;
+}
+
