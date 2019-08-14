@@ -59,9 +59,46 @@
 
     <div id="footer">
       <div class="container">
-        <h4>Teachers</h4>
-        <br />
-        <%= link_to 'Teach a Course', new_instructor_course_path %>
+        <div class="row">
+          <div class="col-12 col-sm-3">
+            <h4>Teachers</h4>
+            <br />
+            <%= link_to 'Teach a Course', new_instructor_course_path %>
+            <br />
+            <%= link_to 'My Dashboard', dashboard_path %>
+          </div>
+          <div class="col-12 col-sm-3">
+            <h4>About</h4>
+            <br />
+            <% link_to 'Team', '#' %>
+            <br />
+            <%= link_to 'Careers', '#' %>
+            <br />
+            <%= link_to 'Privacy Policy', '#' %>
+          </div>
+          <div class="col-12 col-sm-3">
+            <h4>Contact</h4>
+            <br />
+            davidjlopez@comcast.net
+            <br />
+            317 N. Main St.
+            <br />
+            Pueblo CO, 81003
+          </div>
+          <div class="col-12 col-sm-3">
+            <h4>Social</h4>
+            <br />
+            <%= link_to 'http://github.com/davidjlopez19' do %>
+              <span class="fa fa-github-square fa-2x social-button"></span>
+            <% end %>
+            <%= link_to 'https://www.facebook.com/david.lopez.7564' do %>
+              <span class="fa fa-facebook-square fa-2x social-button"></span>
+            <% end %>
+            <%= link_to 'https://twitter.com/haymus19' do %>            
+            <span class="fa fa-twitter-square fa-2x social-button"></span>
+            <% end %>
+          </div>
+        </div>
       </div>
     </div>
 
