@@ -252,3 +252,40 @@ hr .LessonLine {
 .social a:hover {
   text-decoration: none;
 }
+
+.img-box {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+
+ .img-box2 {
+  max-width: 50%;
+  margin-top: 5px;
+}
+
+.clearfix {
+  height: auto;
+  max-width: 75%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.img-fluid {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#student {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.4)
+}

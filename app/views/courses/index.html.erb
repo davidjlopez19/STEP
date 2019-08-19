@@ -7,9 +7,11 @@
       <h4 class="text-center">
         <%= link_to course.title, course_path(course) %> 
       </h4>
+      <div class="img-box2 mx-auto d-block rounded">
         <% if course.image.url %>
-          <%= image_tag course.image.url, class: 'img-fluid' %>
+          <%= image_tag course.image.url, class: 'img-fluid mx-auto d-block rounded' %>
         <% end %>
+      </div>
       <br />
       <div class="row">
         <div class="col-sm-8 col-12">
